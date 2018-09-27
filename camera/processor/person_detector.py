@@ -81,7 +81,5 @@ class PersonDetector(object):
         if elapsed > 30:
             request(count)
             self.last_upload = time.time()
-        
-        request(count)
                 
         return frame
